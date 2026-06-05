@@ -100,7 +100,7 @@ def init_db():
         is_pdc INTEGER DEFAULT 0,
         pdc_present_date TEXT,
         notes TEXT,
-        created_at TEXT DEFAULT (datetime("now"))
+        created_at TEXT DEFAULT CURRENT_TIMESTAMP
     )''')
     db.commit()
     db.close()
