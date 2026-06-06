@@ -756,7 +756,7 @@ class PDCTab(ctk.CTkFrame):
         self.tree.column('Cheque #', width=80, anchor='center')
         self.tree.column('Payee', width=200)
         self.tree.column('Date', width=90, anchor='center')
-        self.tree.column('Amount (AED)', width=110, anchor='right')
+        self.tree.column('Amount (AED)', width=110, anchor='e')
         self.tree.column('Type', width=70, anchor='center')
         self.tree.column('Status', width=80, anchor='center')
 
